@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
-const API = 'http://localhost:3000/api';
+const API = 'https://accomplished-caring-production.up.railway.app/api';
 
 export default function Register() {
   const navigate = useNavigate();
